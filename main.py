@@ -2,8 +2,8 @@ import os
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-GROUP_CHAT_ID = int(os.getenv("GROUP_CHAT_ID"))
+BOT_TOKEN = os.getenv("7409757167:AAF8WPU0KHv83Qkf2QFXTMfvDbqvxIO1WQI")
+GROUP_CHAT_ID = int(os.getenv("1002396195406"))
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("👀 Tell me your secret anonymously...")
